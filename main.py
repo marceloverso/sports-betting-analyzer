@@ -11,7 +11,7 @@ load_dotenv()
 API_KEY = os.getenv('SPORTS_API_KEY')
 SHEET_ID = os.getenv('GOOGLE_SHEET_ID')
 # La ruta al JSON también puede ser una variable de entorno
-GOOGLE_CREDS_PATH = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+GOOGLE_CREDS_PATH = os.getenv('GOOGLE_CREDS_PATH')
 
 def conectar_hoja():
     scope = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
