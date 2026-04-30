@@ -24,8 +24,8 @@ def obtener_resultado_real(deporte, local, visitante):
     Aquí conectarías con tu API (The Odds API, etc.)
     Usando la variable API_KEY
     """
-    # url = f"https://api.the-odds-api.com/v4/sports/{deporte}/scores/?apiKey={API_KEY}"
-    # r = requests.get(url)
+    url = f"https://api.the-odds-api.com/v4/sports/{deporte}/scores/?apiKey={API_KEY}"
+    r = requests.get(url)
     return "Pendiente" # Simulación
 
 def ejecutar_actualizacion():
